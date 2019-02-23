@@ -107,6 +107,18 @@ header {
   clear: both;
 }
 
+.portfolio-item {
+  position: relative;
+  background-color: rgba(0,0,0,.5);
+  margin-bottom: 20px;
+  float: left;
+  width: 45%;
+}
+
+.portfolio-item:nth-of-type(even) {
+  float: right;
+}
+
 .text1 {
   float:right;
   width:650px;
@@ -120,3 +132,27 @@ header {
   margin: 0 auto;
   padding: 20px;
 }
+
+#pic1 {
+background: url('../images/pic1.jpg') cover no-repeat;
+}
+
+#pic2 {
+  background: url('../images/pic2.jpg') cover no-repeat;
+  }
+
+#pic3 {
+  background: url('../images/pic3.jpg') cover no-repeat;
+  }
+
+#pic4 {
+  background: url('../images/pic4.jpg') cover no-repeat;
+  }
+
+#pic5 {
+  background: url('../images/pic5.jpg') cover no-repeat;
+  }
+
+#pic6 {
+  background: url('../images/pic6.jpg') cover no-repeat;
+  }   
